@@ -1,7 +1,7 @@
 # trvl365
 This was created for my web app development class (SENG365 @ University of Canterbury). This repo only showcases assignment 2, the front-end, and will not work properly without its backend running.
 
-You can visit a live "trial" version of the website here: [trvl365.nistorv.me](trvl365.nistorv.me). It doesn't contain any interactive features, however it showcases the website and how it worked.
+You can visit a live "trial" version of the website here: [trvl365.nistorv.me](https://trvl365.nistorv.me). It doesn't contain any interactive features, however it showcases the website and how it worked.
 
 # React + TypeScript + Vite
 
