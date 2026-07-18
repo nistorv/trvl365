@@ -1,0 +1,28 @@
+{
+  "blogId": 6,
+  "title": "Prague in February: The Off-Season Is the Real Season",
+  "description": "Charles Bridge at 8am with eleven people on it instead of eleven hundred, svíčková in a pub with no English menu, and a castle you can actually hear yourself think in. Why winter Prague beats summer Prague on every axis except temperature, and how to do three days there on a weekend-flight budget.",
+  "creationDate": "2026-07-12T10:00:00.000Z",
+  "numReactions": 12,
+  "creatorFirstName": "Vlad",
+  "creatorLastName": "Nistor",
+  "city": "Prague",
+  "categories": ["City Break", "Budget Travel"],
+  "series": "Off-Season Europe",
+  "numberOfUniqueCommenters": 1,
+  "image": "src/assets/blogs/remarkables-weekend.jpg",
+  "comments": [
+    {
+      "commentId": 1,
+      "comment": "The 8am Charles Bridge tip is gold. Add Vyšehrad if you go back — same views, no crowds even in July.",
+      "commenterFirstName": "Emma",
+      "commenterLastName": "Ridley",
+      "timestamp": "2026-07-13T09:15:00.000Z",
+      "parentId": null
+    }
+  ],
+  "reactions": [
+    { "reaction": "REACTION_1", "count": 7 },
+    { "reaction": "REACTION_2", "count": 5 }
+  ]
+}

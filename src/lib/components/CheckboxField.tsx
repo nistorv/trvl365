@@ -1,35 +1,30 @@
-interface Item {
-  id: number;
-  name: string;
-}
-
 interface CheckboxFieldProps {
-  items: Item[];
-  selected: number[];
-  select: (ids: number[]) => void;
+  items: string[];
+  selected: string[];
+  select: (items: string[]) => void;
 }
 
 export function CheckboxField(props: CheckboxFieldProps) {
-  function toggle(id: number) {
-    props.select(props.selected.includes(id)
-      ? props.selected.filter((c) => c !== id)
-      : [...props.selected, id]);
+  function toggle(item: string) {
+    props.select(props.selected.includes(item)
+      ? props.selected.filter((c) => c !== item)
+      : [...props.selected, item]);
   }
 
   return (
     <div className="flex flex-wrap gap-x-4 gap-y-2">
       {props.items.map((item) => (
         <label
-          key={item.id}
+          key={item}
           className="flex items-center gap-2 cursor-pointer"
         >
           <input
             type="checkbox"
-            checked={props.selected.includes(item.id)}
-            onChange={() => toggle(item.id)}
+            checked={props.selected.includes(item)}
+            onChange={() => toggle(item)}
             className="w-4 h-4 accent-(--accent) cursor-pointer"
           />
-          <span className="text-sm text-(--text-h)">{item.name}</span>
+          <span className="text-sm text-(--text-h)">{item}</span>
         </label>
       ))}
     </div>

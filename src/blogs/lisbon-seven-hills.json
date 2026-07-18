@@ -1,0 +1,19 @@
+{
+  "blogId": 3,
+  "title": "Lisbon's Hills Will Humble You (Bring Better Shoes)",
+  "description": "Tram 28, a pastel de nata every ninety minutes to stay motivated, and a sunset from Miradouro da Senhora do Monte that made the calf pain worth it. A one-day walking itinerary for Lisbon that leans into the hills instead of fighting them, including which viewpoints justify the climb and which are just stairs with marketing.",
+  "creationDate": "2026-05-30T11:00:00.000Z",
+  "numReactions": 19,
+  "creatorFirstName": "Priya",
+  "creatorLastName": "Sharma",
+  "city": "Lisbon",
+  "categories": ["City Break", "Food & Drink"],
+  "numberOfUniqueCommenters": 0,
+  "image": "src/assets/blogs/remarkables-weekend.jpg",
+  "reactions": [
+    { "reaction": "REACTION_1", "count": 8 },
+    { "reaction": "REACTION_2", "count": 6 },
+    { "reaction": "REACTION_3", "count": 1 },
+    { "reaction": "REACTION_4", "count": 4 }
+  ]
+}

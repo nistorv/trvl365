@@ -1,0 +1,45 @@
+{
+  "blogId": 14,
+  "title": "Hut-to-Hut Above Interlaken: Four Days Without Touching a Road",
+  "description": "The Bernese Oberland has a trick the day-trippers never see: sleep in the mountain huts and the trails empty out by 4pm. Four days from Grindelwald to Kandersteg over three passes — how the hut booking system actually works, what half-board gets you (soup, so much soup), and the morning the Eiger came out of the clouds while we ate breakfast on a terrace at 2300 metres.",
+  "creationDate": "2026-07-03T07:15:00.000Z",
+  "numReactions": 28,
+  "creatorFirstName": "Tom",
+  "creatorLastName": "Walker",
+  "city": "Interlaken",
+  "categories": ["Hiking", "Adventure"],
+  "series": "Alpine Summers",
+  "numberOfUniqueCommenters": 3,
+  "image": "src/assets/blogs/remarkables-weekend.jpg",
+  "reactions": [
+    { "reaction": "REACTION_1", "count": 16 },
+    { "reaction": "REACTION_2", "count": 10 },
+    { "reaction": "REACTION_5", "count": 2 }
+  ],
+  "comments": [
+    {
+      "commentId": 1,
+      "comment": "How far ahead did you book the huts? Trying to do this in August and half the sites are already showing full.",
+      "commenterFirstName": "Liam",
+      "commenterLastName": "Kereopa",
+      "timestamp": "2026-07-03T19:20:00.000Z",
+      "parentId": null
+    },
+    {
+      "commentId": 2,
+      "comment": "Five months out for the popular ones. But cancellations open up 2-3 days before if you can be flexible — that's how we got Blüemlisalphütte.",
+      "commenterFirstName": "Tom",
+      "commenterLastName": "Walker",
+      "timestamp": "2026-07-04T06:50:00.000Z",
+      "parentId": 1
+    },
+    {
+      "commentId": 3,
+      "comment": "The soup thing is so accurate. Three courses and every single one is broth-adjacent. Would still go back tomorrow.",
+      "commenterFirstName": "Sophie",
+      "commenterLastName": "Chen",
+      "timestamp": "2026-07-05T13:35:00.000Z",
+      "parentId": null
+    }
+  ]
+}

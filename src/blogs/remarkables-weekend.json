@@ -1,0 +1,54 @@
+{
+  "blogId": 1,
+  "title": "Chasing Winter: A Weekend on the Remarkables",
+  "description": "Two days of skiing, one very questionable rental jacket, and the best hot chocolate I've ever had. Queenstown in July is chaos in the best way — here's how we did the whole weekend without booking anything more than a week in advance, where we stayed, and why you should never trust the mountain forecast past lunchtime.",
+  "creationDate": "2026-07-06T09:30:00.000Z",
+  "numReactions": 42,
+  "creatorFirstName": "Maya",
+  "creatorLastName": "Thompson",
+  "city": "Queenstown",
+  "categories": ["Adventure", "Hiking"],
+  "series": "South Island Winter",
+  "numberOfUniqueCommenters": 4,
+  "image": "src/assets/blogs/remarkables-weekend.jpg",
+  "reactions": [
+    { "reaction": "REACTION_1", "count": 20 },
+    { "reaction": "REACTION_2", "count": 15 },
+    { "reaction": "REACTION_4", "count": 5 },
+    { "reaction": "REACTION_5", "count": 2 }
+  ],
+  "comments": [
+    {
+      "commentId": 1,
+      "comment": "That hot chocolate place is Patagonia on Beach Street, right? Went there three times in one weekend, no regrets.",
+      "commenterFirstName": "Emma",
+      "commenterLastName": "Ridley",
+      "timestamp": "2026-07-06T19:45:00.000Z",
+      "parentId": null
+    },
+    {
+      "commentId": 2,
+      "comment": "How were the queues at the base building? Last season we waited 40 minutes just for rentals.",
+      "commenterFirstName": "Josh",
+      "commenterLastName": "Patel",
+      "timestamp": "2026-07-07T08:20:00.000Z",
+      "parentId": null
+    },
+    {
+      "commentId": 3,
+      "comment": "We got there before 8am both days and walked straight through — it's the 9:30 crowd that gets stuck.",
+      "commenterFirstName": "Maya",
+      "commenterLastName": "Thompson",
+      "timestamp": "2026-07-07T12:10:00.000Z",
+      "parentId": 2
+    },
+    {
+      "commentId": 4,
+      "comment": "The forecast warning is so real. Bluebird morning, full whiteout by 1pm. Great write-up!",
+      "commenterFirstName": "Hannah",
+      "commenterLastName": "Cole",
+      "timestamp": "2026-07-08T21:05:00.000Z",
+      "parentId": null
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "blogId": 5,
+  "title": "Roys Peak at Sunrise: Worth the 4am Alarm?",
+  "description": "Everyone has seen the photo. Almost nobody talks about the 1,200 metres of switchbacks you climb in the dark to get it. An honest account of hiking Roys Peak for sunrise — what to pack, how long it actually takes at a normal person's pace, and whether the summit queue for that photo is worth it.",
+  "creationDate": "2026-03-08T07:20:00.000Z",
+  "numReactions": 58,
+  "creatorFirstName": "Liam",
+  "creatorLastName": "Kereopa",
+  "city": "Wanaka",
+  "categories": ["Hiking", "Adventure", "Budget Travel"],
+  "numberOfUniqueCommenters": 3,
+  "image": "src/assets/blogs/remarkables-weekend.jpg",
+  "reactions": [
+    { "reaction": "REACTION_1", "count": 31 },
+    { "reaction": "REACTION_2", "count": 19 },
+    { "reaction": "REACTION_4", "count": 8 }
+  ],
+  "comments": [
+    {
+      "commentId": 1,
+      "comment": "Did this in January and can confirm the queue at the top is real. Great write-up!",
+      "commenterFirstName": "Sophie",
+      "commenterLastName": "Chen",
+      "timestamp": "2026-03-09T10:12:00.000Z",
+      "parentId": null
+    },
+    {
+      "commentId": 2,
+      "comment": "How icy was the track in March? Thinking of doing it next weekend.",
+      "commenterFirstName": "Tom",
+      "commenterLastName": "Walker",
+      "timestamp": "2026-03-10T18:40:00.000Z",
+      "parentId": null
+    },
+    {
+      "commentId": 3,
+      "comment": "Totally fine below the saddle, just bring layers for the top — the wind up there is brutal before sunrise.",
+      "commenterFirstName": "Liam",
+      "commenterLastName": "Kereopa",
+      "timestamp": "2026-03-11T08:05:00.000Z",
+      "parentId": 2
+    }
+  ]
+}

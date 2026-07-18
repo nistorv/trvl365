@@ -1,0 +1,44 @@
+{
+  "blogId": 11,
+  "title": "Tongariro Alpine Crossing: A Love Letter and a Warning",
+  "description": "19.4 kilometres past an active volcano, and the most beautiful day walk in the country when the weather cooperates — which it did not, the first time. What the Emerald Lakes actually look like in person, how the shuttle logistics work from Taupo, and the gear list I wish someone had forced on me before attempt number one.",
+  "creationDate": "2026-02-14T06:30:00.000Z",
+  "numReactions": 39,
+  "creatorFirstName": "Kiri",
+  "creatorLastName": "Waititi",
+  "city": "Taupo",
+  "categories": ["Hiking", "Adventure"],
+  "numberOfUniqueCommenters": 3,
+  "image": "src/assets/blogs/remarkables-weekend.jpg",
+  "reactions": [
+    { "reaction": "REACTION_1", "count": 22 },
+    { "reaction": "REACTION_2", "count": 13 },
+    { "reaction": "REACTION_5", "count": 4 }
+  ],
+  "comments": [
+    {
+      "commentId": 1,
+      "comment": "The 'warning' half of this should be mandatory reading. We saw people starting at midday in sneakers and a singlet.",
+      "commenterFirstName": "Liam",
+      "commenterLastName": "Kereopa",
+      "timestamp": "2026-02-14T19:25:00.000Z",
+      "parentId": null
+    },
+    {
+      "commentId": 2,
+      "comment": "Did you book the shuttle both ways or just the drop-off? Trying to figure out if the return timing is tight.",
+      "commenterFirstName": "Sam",
+      "commenterLastName": "Fletcher",
+      "timestamp": "2026-02-15T08:50:00.000Z",
+      "parentId": null
+    },
+    {
+      "commentId": 3,
+      "comment": "Both ways with the same company — they run returns until 4:30pm so you'd have to really dawdle to miss it.",
+      "commenterFirstName": "Kiri",
+      "commenterLastName": "Waititi",
+      "timestamp": "2026-02-15T10:15:00.000Z",
+      "parentId": 2
+    }
+  ]
+}

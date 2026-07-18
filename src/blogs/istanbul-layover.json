@@ -1,0 +1,36 @@
+{
+  "blogId": 13,
+  "title": "The 20-Hour Istanbul Layover: Two Continents Before Boarding",
+  "description": "My connection gave me 20 hours in Istanbul, and I refuse to call that a layover — that's a trip. Ferry across the Bosphorus at sunrise for the price of a coffee, a simit on each continent, the Basilica Cistern before the queue forms, and a barber shave I didn't plan but don't regret. What's actually doable from the airport with a carry-on and no hotel.",
+  "creationDate": "2026-07-15T21:30:00.000Z",
+  "numReactions": 9,
+  "creatorFirstName": "Vlad",
+  "creatorLastName": "Nistor",
+  "city": "Istanbul",
+  "categories": ["City Break", "Food & Drink", "Budget Travel"],
+  "numberOfUniqueCommenters": 2,
+  "image": "src/assets/blogs/remarkables-weekend.jpg",
+  "reactions": [
+    { "reaction": "REACTION_1", "count": 5 },
+    { "reaction": "REACTION_2", "count": 3 },
+    { "reaction": "REACTION_4", "count": 1 }
+  ],
+  "comments": [
+    {
+      "commentId": 1,
+      "comment": "The ferry-as-cruise trick is the best free tour in Europe. Did you do the full Kadıköy loop or just cross and come back?",
+      "commenterFirstName": "Daniel",
+      "commenterLastName": "Brooks",
+      "timestamp": "2026-07-16T08:40:00.000Z",
+      "parentId": null
+    },
+    {
+      "commentId": 2,
+      "comment": "Full loop — the return leg at golden hour is the whole point. Even ate on the Asian side to say I did.",
+      "commenterFirstName": "Vlad",
+      "commenterLastName": "Nistor",
+      "timestamp": "2026-07-16T12:05:00.000Z",
+      "parentId": 1
+    }
+  ]
+}

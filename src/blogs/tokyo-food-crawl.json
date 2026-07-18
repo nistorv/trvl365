@@ -1,0 +1,31 @@
+{
+  "blogId": 2,
+  "title": "Eating My Way Through Tokyo on ¥5000 a Day",
+  "description": "I gave myself ¥5000 a day and a rule: no restaurant twice. What followed was a week-long battle between the 7-Eleven egg sandwich, a standing soba counter in Shinjuku station, and a depachika basement that nearly ended the budget on day one. Where to queue, what to skip, and why konbini breakfast is not a compromise.",
+  "creationDate": "2026-06-21T14:15:00.000Z",
+  "numReactions": 0,
+  "creatorFirstName": "Jack",
+  "creatorLastName": "O'Connor",
+  "city": "Tokyo",
+  "categories": ["Food & Drink", "City Break", "Budget Travel"],
+  "numberOfUniqueCommenters": 2,
+  "image": "src/assets/blogs/remarkables-weekend.jpg",
+  "comments": [
+    {
+      "commentId": 1,
+      "comment": "The egg sando discourse is settled then. Lawson's is better though, and I will die on this hill.",
+      "commenterFirstName": "Aroha",
+      "commenterLastName": "Ngata",
+      "timestamp": "2026-06-22T09:30:00.000Z",
+      "parentId": null
+    },
+    {
+      "commentId": 2,
+      "comment": "Did ¥5000 actually survive contact with a depachika? Asking for budgeting purposes (mine never does).",
+      "commenterFirstName": "Sam",
+      "commenterLastName": "Fletcher",
+      "timestamp": "2026-06-23T17:55:00.000Z",
+      "parentId": null
+    }
+  ]
+}

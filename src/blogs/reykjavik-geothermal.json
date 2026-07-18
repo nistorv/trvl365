@@ -1,0 +1,45 @@
+{
+  "blogId": 4,
+  "title": "Reykjavik Steams: Geysers, Black Sand, and the Lagoon Question",
+  "description": "Iceland smells like eggs near the vents and looks like another planet everywhere — you stop noticing the first one after an hour and never stop noticing the second. We did the Golden Circle, Strokkur going off on schedule, and settled the Blue Lagoon versus Sky Lagoon debate once and for all. Full costs, timings, and whether the famous one is worth the famous price.",
+  "creationDate": "2026-04-12T16:45:00.000Z",
+  "numReactions": 35,
+  "creatorFirstName": "Maya",
+  "creatorLastName": "Thompson",
+  "city": "Reykjavik",
+  "categories": ["Adventure", "Road Trip"],
+  "series": "Nordic Detours",
+  "numberOfUniqueCommenters": 3,
+  "image": "src/assets/blogs/remarkables-weekend.jpg",
+  "reactions": [
+    { "reaction": "REACTION_1", "count": 18 },
+    { "reaction": "REACTION_2", "count": 12 },
+    { "reaction": "REACTION_5", "count": 5 }
+  ],
+  "comments": [
+    {
+      "commentId": 1,
+      "comment": "So which lagoon won? You can't set up the debate in the intro and hide the verdict in paragraph nine.",
+      "commenterFirstName": "Ben",
+      "commenterLastName": "Harris",
+      "timestamp": "2026-04-13T20:15:00.000Z",
+      "parentId": null
+    },
+    {
+      "commentId": 2,
+      "comment": "Sky Lagoon, and it wasn't close — half the price, no bus tour crowds, and the cold plunge ritual is actually fun.",
+      "commenterFirstName": "Maya",
+      "commenterLastName": "Thompson",
+      "timestamp": "2026-04-14T07:50:00.000Z",
+      "parentId": 1
+    },
+    {
+      "commentId": 3,
+      "comment": "You really do stop noticing the sulphur. Spent a month there for work and forgot it existed until visitors mentioned it.",
+      "commenterFirstName": "Kiri",
+      "commenterLastName": "Waititi",
+      "timestamp": "2026-04-16T13:25:00.000Z",
+      "parentId": null
+    }
+  ]
+}

@@ -1,21 +1,17 @@
 import { Link } from "react-router-dom"
 import { MdLocationOn } from "react-icons/md"
 import { FiHeart } from "react-icons/fi"
-import type { Blog, Category, City } from "../../types"
-import { imageAPI } from "../../api"
-import { getCityName, getCategoryNames, formatDate } from "../../utils"
+import type { Blog } from "../../types"
+import { formatDate } from "../../utils"
 import { ProfileIcon } from "../profile/ProfileIcon"
 
 interface BlogItemProps {
   blog: Blog;
-  categories: Category[];
-  cities: City[];
   className?: string;
 }
 
 export function BlogItem(props: BlogItemProps) {
-  const categoryNames = getCategoryNames(props.categories, props.blog.categoryIds);
-  const cityName = getCityName(props.cities, props.blog.cityId);
+  const categoryNames = props.blog.categories.join(', ');
 
   return (
       <Link
@@ -24,7 +20,7 @@ export function BlogItem(props: BlogItemProps) {
       >
         <div className="relative w-2/5">
           <img
-              src={imageAPI(props.blog.blogId, 'blogs')}
+              src={props.blog.image}
               alt={props.blog.title}
               className="absolute w-full h-full object-cover"
           />
@@ -38,10 +34,7 @@ export function BlogItem(props: BlogItemProps) {
           </div>
 
           <div className="flex-1 flex items-center gap-1.5">
-            <ProfileIcon
-                img={ imageAPI(props.blog.creatorId, 'users') }
-                type="blogCard"
-            />
+            <ProfileIcon type="blogCard" />
             <span className="text-xs truncate">
             {props.blog.creatorFirstName} {props.blog.creatorLastName}
           </span>
@@ -50,7 +43,7 @@ export function BlogItem(props: BlogItemProps) {
           <div>
             <div className="flex items-center gap-1 text-xs">
               <MdLocationOn className="w-3 h-3 shrink-0" />
-              <span className="truncate">{cityName}</span>
+              <span className="truncate">{props.blog.city}</span>
             </div>
             {categoryNames && (
                 <p className="text-xs text-(--text-low-visibility) italic truncate">

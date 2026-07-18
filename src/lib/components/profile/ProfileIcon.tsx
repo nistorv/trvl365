@@ -24,7 +24,7 @@ function getIconSizes(type: IconType): [string, string] {
 }
 
 interface ProfileIconProps {
-  img: string;
+  img?: string;
   type: IconType;
 }
 
@@ -32,7 +32,7 @@ export function ProfileIcon(props: ProfileIconProps) {
   const [useDefault, setUseDefault] = useState(false);
   const [containerClasses, iconClasses] = getIconSizes(props.type);
 
-  if (useDefault) {
+  if (!props.img || useDefault) {
     return (
         <div className={`${containerClasses} shrink-0 border border-(--border) bg-(--code-bg) flex items-center justify-center`}>
           <RiUser3Line className={`${iconClasses} text-(--text)`} />

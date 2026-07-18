@@ -1,0 +1,23 @@
+{
+  "blogId": 12,
+  "title": "Island Hopping from Split by Kayak: Three Days, One Smug Dolphin",
+  "description": "You can do the Dalmatian islands by ferry like everyone else, or you can paddle out of Split and have every pebble cove to yourself before the tour boats arrive. A three-day sea kayak route via Šolta and back — where to wild camp legally, the afternoon maestral wind that actually dictates your schedule, and the dolphin that escorted us into Maslinica looking unbearably pleased with itself.",
+  "creationDate": "2026-01-20T09:00:00.000Z",
+  "numReactions": 0,
+  "creatorFirstName": "Hannah",
+  "creatorLastName": "Cole",
+  "city": "Split",
+  "categories": ["Adventure", "Budget Travel"],
+  "numberOfUniqueCommenters": 1,
+  "image": "src/assets/blogs/remarkables-weekend.jpg",
+  "comments": [
+    {
+      "commentId": 1,
+      "comment": "The maestral warning is real — we ignored it once and spent four hours doing what the morning would've done in one. Great route.",
+      "commenterFirstName": "Josh",
+      "commenterLastName": "Patel",
+      "timestamp": "2026-01-22T17:35:00.000Z",
+      "parentId": null
+    }
+  ]
+}

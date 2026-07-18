@@ -1,0 +1,19 @@
+{
+  "blogId": 10,
+  "title": "Hanoi on a Shoestring: Phở, Plastic Stools, and Egg Coffee",
+  "description": "Four days in Hanoi for under $100 all-in, sleeping in the Old Quarter and eating exclusively at places with furniture designed for kindergarteners. The phở breakfast rule, the egg coffee cafe hidden behind a silk shop on Hàng Gai, and how to cross an eight-lane roundabout armed with nothing but faith. Train street optional, but go early.",
+  "creationDate": "2026-03-29T16:10:00.000Z",
+  "numReactions": 26,
+  "creatorFirstName": "Priya",
+  "creatorLastName": "Sharma",
+  "city": "Hanoi",
+  "categories": ["Budget Travel", "Food & Drink"],
+  "series": "Shoestring Asia",
+  "numberOfUniqueCommenters": 0,
+  "image": "src/assets/blogs/remarkables-weekend.jpg",
+  "reactions": [
+    { "reaction": "REACTION_1", "count": 13 },
+    { "reaction": "REACTION_2", "count": 9 },
+    { "reaction": "REACTION_4", "count": 4 }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "blogId": 7,
+  "title": "Bergen to Flåm: Why the Drive Beats the Cruise",
+  "description": "Everyone books the fjord cruise and misses the best part. The road from Bergen through Voss to Flåm has a dozen stops that outshine the boat on a clear day — Tvindefossen at dawn, the Stalheim switchbacks, and a goat at a roadside stop that tried to eat my parking ticket. Where to stop, in what order, and how early to leave to beat the tour buses to Nærøyfjord.",
+  "creationDate": "2026-06-02T08:45:00.000Z",
+  "numReactions": 47,
+  "creatorFirstName": "Sophie",
+  "creatorLastName": "Chen",
+  "city": "Bergen",
+  "categories": ["Road Trip", "Adventure"],
+  "series": "Fjord Files",
+  "numberOfUniqueCommenters": 3,
+  "image": "src/assets/blogs/remarkables-weekend.jpg",
+  "reactions": [
+    { "reaction": "REACTION_1", "count": 24 },
+    { "reaction": "REACTION_2", "count": 16 },
+    { "reaction": "REACTION_4", "count": 7 }
+  ],
+  "comments": [
+    {
+      "commentId": 1,
+      "comment": "The goat thing is universal. One ate half a map out of our hands above Geiranger.",
+      "commenterFirstName": "Tom",
+      "commenterLastName": "Walker",
+      "timestamp": "2026-06-02T20:30:00.000Z",
+      "parentId": null
+    },
+    {
+      "commentId": 2,
+      "comment": "Is the Stalheim road open in early June? Some sites say the old switchback section closes for weather.",
+      "commenterFirstName": "Priya",
+      "commenterLastName": "Sharma",
+      "timestamp": "2026-06-03T11:10:00.000Z",
+      "parentId": null
+    },
+    {
+      "commentId": 3,
+      "comment": "Open by late May most years — it's one-way downhill only, so you have to do the loop in the direction I described or you'll miss it.",
+      "commenterFirstName": "Sophie",
+      "commenterLastName": "Chen",
+      "timestamp": "2026-06-03T14:05:00.000Z",
+      "parentId": 2
+    }
+  ]
+}

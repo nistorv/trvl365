@@ -1,0 +1,45 @@
+{
+  "blogId": 9,
+  "title": "48 Hours in New York Without Touching Times Square",
+  "description": "New York gets reduced to a checklist, which is exactly wrong. Two days covering a proper bagel in Brooklyn, the High Line before the crowds wake up, dollar-ish slices that still exist if you know where, and a sunset from Top of the Rock's cheaper cousin in Long Island City. No Times Square, no regrets, and less money spent than you'd think.",
+  "creationDate": "2026-04-25T18:00:00.000Z",
+  "numReactions": 33,
+  "creatorFirstName": "Daniel",
+  "creatorLastName": "Brooks",
+  "city": "New York",
+  "categories": ["City Break", "Food & Drink", "Budget Travel"],
+  "numberOfUniqueCommenters": 3,
+  "image": "src/assets/blogs/remarkables-weekend.jpg",
+  "reactions": [
+    { "reaction": "REACTION_1", "count": 15 },
+    { "reaction": "REACTION_2", "count": 12 },
+    { "reaction": "REACTION_3", "count": 2 },
+    { "reaction": "REACTION_4", "count": 4 }
+  ],
+  "comments": [
+    {
+      "commentId": 1,
+      "comment": "Which bagel place? This matters more than anything else in the itinerary and you know it.",
+      "commenterFirstName": "Emma",
+      "commenterLastName": "Ridley",
+      "timestamp": "2026-04-26T12:30:00.000Z",
+      "parentId": null
+    },
+    {
+      "commentId": 2,
+      "comment": "Shelsky's if you want to sit down, Bagel Hole if you want to be humbled by a queue of locals at 8am.",
+      "commenterFirstName": "Daniel",
+      "commenterLastName": "Brooks",
+      "timestamp": "2026-04-26T15:45:00.000Z",
+      "parentId": 1
+    },
+    {
+      "commentId": 3,
+      "comment": "Lived there three years and never once went to Times Square on purpose. This itinerary is the correct one.",
+      "commenterFirstName": "Kiri",
+      "commenterLastName": "Waititi",
+      "timestamp": "2026-04-28T09:20:00.000Z",
+      "parentId": null
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 import type { BlogComment } from "../../../types";
-import { imageAPI } from "../../../api";
-import { formatDate } from "../../../utils";
-import { ProfileIcon } from "../../profile/ProfileIcon";
 import { Link } from "react-router-dom";
+import { formatDate } from "../../../utils";
+import { slugifyUser } from "../../../blogs";
+import { ProfileIcon } from "../../profile/ProfileIcon";
 
 interface ReplyCommentProps {
   reply: BlogComment;
@@ -11,11 +11,11 @@ interface ReplyCommentProps {
 export function ReplyComment(props: ReplyCommentProps) {
   return (
     <div className="flex items-start gap-2">
-      <ProfileIcon img={imageAPI(props.reply.commenterId, 'users')} type="blogCard" />
+      <ProfileIcon type="blogCard" />
       <div className="flex-1 min-w-0">
         <div className="flex items-baseline gap-2">
           <Link
-            to={`/users/${props.reply.commenterId}`}
+            to={`/users/${slugifyUser(props.reply.commenterFirstName, props.reply.commenterLastName)}`}
             className="text-sm font-semibold text-(--text-h) hover:text-(--accent) truncate min-w-0 flex-1"
           >
             {props.reply.commenterFirstName} {props.reply.commenterLastName}

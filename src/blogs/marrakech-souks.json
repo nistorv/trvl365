@@ -1,0 +1,28 @@
+{
+  "blogId": 15,
+  "title": "Getting Lost in the Marrakech Souks (On Purpose This Time)",
+  "description": "The first time I entered the medina I lasted forty minutes before paying a teenager to walk me out. This time I went in with a strategy: no maps, a hard budget in small notes, and a rule that every wrong turn earns a mint tea. How to haggle without being a jerk, where the lantern souk actually is, and why Jemaa el-Fnaa is better at 8am than 8pm.",
+  "creationDate": "2026-05-09T15:40:00.000Z",
+  "numReactions": 17,
+  "creatorFirstName": "Emma",
+  "creatorLastName": "Ridley",
+  "city": "Marrakech",
+  "categories": ["City Break", "Adventure", "Budget Travel"],
+  "numberOfUniqueCommenters": 1,
+  "image": "src/assets/blogs/remarkables-weekend.jpg",
+  "reactions": [
+    { "reaction": "REACTION_1", "count": 9 },
+    { "reaction": "REACTION_2", "count": 6 },
+    { "reaction": "REACTION_4", "count": 2 }
+  ],
+  "comments": [
+    {
+      "commentId": 1,
+      "comment": "'Every wrong turn earns a mint tea' is the only medina navigation system that has ever worked. Stealing this.",
+      "commenterFirstName": "Hannah",
+      "commenterLastName": "Cole",
+      "timestamp": "2026-05-10T11:25:00.000Z",
+      "parentId": null
+    }
+  ]
+}

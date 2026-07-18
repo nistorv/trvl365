@@ -1,11 +1,9 @@
-import type { Blog, Category, City } from "../../types";
+import type { Blog } from "../../types";
 import { BlogItem } from "./BlogItem";
 import { Dropdown } from "../Dropdown";
 
 interface SimilarBlogsProps {
   blogs: Blog[];
-  categories: Category[];
-  cities: City[];
 }
 
 export function SimilarBlogs(props: SimilarBlogsProps) {
@@ -13,7 +11,7 @@ export function SimilarBlogs(props: SimilarBlogsProps) {
     <Dropdown title={`Similar Blogs (${props.blogs.length})`}>
       <div className="flex flex-col gap-3">
         {props.blogs.map((b) => (
-          <BlogItem key={b.blogId} blog={b} categories={props.categories} cities={props.cities} />
+          <BlogItem key={b.blogId} blog={b} />
         ))}
       </div>
     </Dropdown>

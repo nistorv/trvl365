@@ -9,13 +9,11 @@ import { RiSortAsc,
     RiFilterLine,
     RiFilterFill,
 } from "react-icons/ri";
-import axios from "axios";
-import type { Category, City } from "../../types";
-import { categoriesAPI, citiesAPI } from "../../api";
+import { getCategories, getCities } from "../../blogs";
 import { CheckboxField } from "../CheckboxField";
 import { Modal } from "../Modal";
 import { Button } from "../Button";
-  
+
 const sortOptions = [
   { value: 'CREATED_DESC', label: 'Newest to Oldest', Icon: RiSortDesc },
   { value: 'CREATED_ASC', label: 'Oldest to Newest', Icon: RiSortAsc },
@@ -27,37 +25,23 @@ const sortOptions = [
 
 export function FilterBar() {
   const [searchParams, setSearchParams] = useSearchParams();
-  const [categories, setCategories] = useState<Category[]>([]);
-  const [cities, setCities] = useState<City[]>([]);
+
+  const categories = getCategories();
+  const cities = getCities();
 
   const [filterModalOpen, setFilterModalOpen] = useState(false);
   const [sortModalOpen, setSortModalOpen] = useState(false);
 
-  const [selectedCategories, setSelectedCategories] = useState<number[]>([]);
-  const [selectedCities, setSelectedCities] = useState<number[]>([]);
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  const [selectedCities, setSelectedCities] = useState<string[]>([]);
   const [minReactions, setMinReactions] = useState<string>('');
 
-  useEffect(() => {
-    async function getCategoriesCities() {
-      try {
-        const categoriesResponse = await axios.get<Category[]>(categoriesAPI);
-        const citiesResponse = await axios.get<City[]>(citiesAPI);
-
-        setCategories(categoriesResponse.data);
-        setCities(citiesResponse.data);
-      } catch (error) {
-        console.error(error);
-      }
-    }
-
-    getCategoriesCities();
-  }, []);
-
-  useEffect(() => {
-    setSelectedCategories(searchParams.getAll('categoryIds').map(Number));
-    setSelectedCities(searchParams.getAll('cityIds').map(Number));
+  function openFilterModal() {
+    setSelectedCategories(searchParams.getAll('categories'));
+    setSelectedCities(searchParams.getAll('cities'));
     setMinReactions(searchParams.get('numReactions') ?? '');
-  }, [filterModalOpen, searchParams]);
+    setFilterModalOpen(true);
+  }
 
   useEffect(() => {
     document.body.classList.toggle('overflow-hidden', filterModalOpen || sortModalOpen);
@@ -66,8 +50,8 @@ export function FilterBar() {
     }
   }, [filterModalOpen, sortModalOpen]);
 
-  const activeFilter = searchParams.getAll('categoryIds').length > 0
-    || searchParams.getAll('cityIds').length > 0
+  const activeFilter = searchParams.getAll('categories').length > 0
+    || searchParams.getAll('cities').length > 0
     || searchParams.has('numReactions');
 
   const currentSort = searchParams.get('sortBy') ?? 'CREATED_DESC';
@@ -75,17 +59,18 @@ export function FilterBar() {
 
 
   function clearSearchParams(url: URLSearchParams) {
-    url.delete('categoryIds');
-    url.delete('cityIds');
+    url.delete('categories');
+    url.delete('cities');
     url.delete('numReactions');
+    url.delete('page');
   }
 
   function applyFilter() {
     const filterUrl = new URLSearchParams(searchParams);
     clearSearchParams(filterUrl);
 
-    selectedCategories.forEach((id) => filterUrl.append('categoryIds', String(id)));
-    selectedCities.forEach((id) => filterUrl.append('cityIds', String(id)));
+    selectedCategories.forEach((category) => filterUrl.append('categories', category));
+    selectedCities.forEach((city) => filterUrl.append('cities', city));
 
     if (minReactions !== '' && Number(minReactions) > 0) {
       filterUrl.set('numReactions', minReactions);
@@ -115,6 +100,7 @@ export function FilterBar() {
     } else {
       sortURL.set('sortBy', sort);
     }
+    sortURL.delete('page');
     setSearchParams(sortURL);
     setSortModalOpen(false);
   }
@@ -132,7 +118,7 @@ export function FilterBar() {
         </button>
 
         <button
-          onClick={() => setFilterModalOpen(true)}
+          onClick={openFilterModal}
           className={`flex items-center gap-1 cursor-pointer ${activeFilter ? 'text-(--accent)' : 'text-(--text) hover:text-(--text-h)'}`}
         >
           {activeFilter ? <RiFilterFill className="w-6 h-6"/> : <RiFilterLine className="w-6 h-6"/>}
@@ -167,7 +153,7 @@ export function FilterBar() {
               Categories
             </label>
             <CheckboxField
-              items={categories.map((category) => ({id: category.categoryId, name: category.name}))}
+              items={categories}
               selected={selectedCategories}
               select={setSelectedCategories}
             />
@@ -178,7 +164,7 @@ export function FilterBar() {
               Cities
             </label>
             <CheckboxField
-              items={cities.map((city) => ({id: city.cityId, name: city.name}))}
+              items={cities}
               selected={selectedCities}
               select={setSelectedCities}
             />

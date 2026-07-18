@@ -1,0 +1,36 @@
+{
+  "blogId": 8,
+  "title": "Kaikoura: Whales, Crayfish, and a Very Early Ferry of Regret",
+  "description": "Third time lucky — the first two whale watching tours got cancelled by swell, so here's what nobody tells you about booking Kaikoura. Plus the roadside crayfish caravan that justified the whole trip, and why you should stay the night instead of day-tripping from Christchurch.",
+  "creationDate": "2026-05-17T13:20:00.000Z",
+  "numReactions": 21,
+  "creatorFirstName": "Jack",
+  "creatorLastName": "O'Connor",
+  "city": "Kaikoura",
+  "categories": ["Adventure", "Food & Drink"],
+  "numberOfUniqueCommenters": 2,
+  "image": "src/assets/blogs/remarkables-weekend.jpg",
+  "reactions": [
+    { "reaction": "REACTION_1", "count": 11 },
+    { "reaction": "REACTION_2", "count": 8 },
+    { "reaction": "REACTION_5", "count": 2 }
+  ],
+  "comments": [
+    {
+      "commentId": 1,
+      "comment": "Nin's Bin! Knew it before you even said the name. Best crayfish on the coast.",
+      "commenterFirstName": "Maya",
+      "commenterLastName": "Thompson",
+      "timestamp": "2026-05-18T10:40:00.000Z",
+      "parentId": null
+    },
+    {
+      "commentId": 2,
+      "comment": "Good tip on staying overnight — the dawn light on the seaward ranges is worth it alone.",
+      "commenterFirstName": "Ben",
+      "commenterLastName": "Harris",
+      "timestamp": "2026-05-19T07:55:00.000Z",
+      "parentId": null
+    }
+  ]
+}
