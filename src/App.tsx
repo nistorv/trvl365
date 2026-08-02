@@ -9,7 +9,7 @@ import { AboutView } from "./lib/views/AboutView";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Navbar />
       <Routes>
         <Route path="/" element={<HomeView />} />
